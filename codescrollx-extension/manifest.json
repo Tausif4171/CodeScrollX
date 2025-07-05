@@ -4,13 +4,13 @@
   "version": "1.0",
   "description": "Scroll X timeline based on coding activity",
   "permissions": ["scripting"],
-  "host_permissions": ["https://x.com/*"],
+  "host_permissions": ["https://x.com/*","https://www.linkedin.com/*"],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": ["https://x.com/*"],
+      "matches": ["https://x.com/*","https://www.linkedin.com/*"],
       "js": ["content.js"]
     }
   ]
